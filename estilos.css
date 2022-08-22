@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.logo {
+  max-width: 60px;
+}
+/* Estilos del header */
+.barra {
+  background-color: #faedcd;
+}
+
+.link a {
+  color: #d4a373;
+}
+
+/* Estilos del hero de inicio */
+.inicio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/pexels-pixabay-219794.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ccd5ae;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 200px 20px 300px 20px;
+}
+
+.inicio h1 {
+  font-size: 8em;
+}
+
+.inicio button {
+  padding: 20px;
+  border-radius: 45px;
+  border: solid 1px #ccd5ae;
+  background-color: #e9edc9;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  color: #ce955c;
+  margin-top: 30px;
+  transition: all 1s;
+}
+.inicio button:hover {
+  transform: translate(10px, 0px);
+  -webkit-box-shadow: -2px -1px 46px 9px rgba(255, 255, 255, 0.34);
+  box-shadow: -2px -1px 46px 9px rgba(255, 255, 255, 0.34);
+  font-size: 1.2em;
+}
+
+/* Estilos galeria */
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: #ccd5ae;
+  padding: 40px 20px 40px 20px;
+}
+
+.galeria h2 {
+  font-size: 4em;
+  padding: 40px;
+}
+
+/* Estilos del carousel */
+
+.ca {
+  margin: 25px 50px 25px 50px;
+}
+.carro {
+  max-height: 500px;
+}
+.imagenCarrusel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top top;
+}
+
+/* Estilos de productos */
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #fefae0;
+}
+
+.productos h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #aeb38c;
+  padding: 25px 0px 25px 0px;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tarjeta {
+  margin: 20px;
+  background-color: #faedcd;
+}
+/* Estilos precios */
+.bg-colorcito {
+  background-color: #e9edc9;
+}
+
+.precios {
+  background-color: #e4c7ab;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.preciosProductos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #d4a37398;
+  border-radius: 20px;
+  margin: 20px;
+}
+.test {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+
+.boton {
+  background-color: #bac08d;
+  border: none;
+}
+.boton:hover {
+  background-color: #a1926b;
+}
+
+/* Estilos recetas */
+.recetas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bac08d8a;
+}
+/* Estilos del footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #faedcd;
+  padding: 15px;
+}
+
+footer p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+  }
+  footer div{
+    padding: 10px;
+  }
+}
